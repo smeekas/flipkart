@@ -17,22 +17,22 @@
 
       <div class="main_header_logo_input">
          <img src="./flipkart-plus_8d85f4.png" alt="">
-          <input type="text" placeholder="search for brand, product and more..">
+         <div>
+          <input type="text" class="search_web" placeholder="search for brand, product and more..">
+          <i class="fas fa-search"></i>
+         </div>
       </div>
       <nav class="main_nav">
         <ul class="main_nav_items">
           <li class="main_nav_item login"><a href="#">Login</a></li>
           <li class="main_nav_item"><a href="#">More </a></li>
-          <li class="main_nav_item"><a href="#"> Cart</a></li>
+          <li class="main_nav_item"><a href="#"><i class="fas fa-shopping-cart"></i> Cart</a></li>
         </ul>
       </nav>
-      <!-- <i class="fas fa-shopping-cart"></i> -->
-      <!-- <i class="fas fa-angle-down"></i>
-<i class="fas fa-angle-down"></i>
-<i class="fas fa-angle-down"></i>
-<i class="fas fa-angle-down"></i>
-<i class="fas fa-angle-down"></i>
-<i class="fas fa-angle-down"></i> -->
+   
+     
+
+
     </header>
     <section id="top_items">
     <ul id="main_items">
@@ -62,28 +62,29 @@
       <div class="main_item_img" id="fashion_img">
 
       </div>
-      <p class="main_item_txt">fashion </p>
+      <p class="main_item_txt">fashion <i class="fas fa-angle-down"></i></p>
     </li>
 
     <li class="main_item" id="electronics">
       <div class="main_item_img" id="electronics_img">
 
       </div>
-      <p class="main_item_txt">electronics </p>
+      <p class="main_item_txt">electronics <i class="fas fa-angle-down"></i></p>
+    
     </li>
 
     <li class="main_item" id="home">
       <div class="main_item_img" id="home_img">
 
       </div>
-      <p class="main_item_txt">home </p>
+      <p class="main_item_txt">home <i class="fas fa-angle-down"></i></p>
     </li>
 
     <li class="main_item" id="appliances">
       <div class="main_item_img" id="appliances_img">
 
       </div>
-      <p class="main_item_txt">appliances </p>
+      <p class="main_item_txt">appliances <i class="fas fa-angle-down"></i></p>
     </li>
 
     <li class="main_item" id="travel">
@@ -97,7 +98,7 @@
       <div class="main_item_img" id="beauty_toys_img">
 
       </div>
-      <p class="main_item_txt">beauty, toys and more </p>
+      <p class="main_item_txt">beauty, toys and more <i class="fas fa-angle-down"></i></p>
     </li>
   </ul>
  
@@ -113,52 +114,132 @@
           <a  href="#">view all</a>
         </div>
       </div>
-      
+     
     <ul class="deal_items">
+      <div class="btn">
+        <i class="fas fa-angle-right"></i>
+      </div>
       <li class="deal_item">
         <div id="deal_item_watch" class="deal_item_img">
 
         </div>
+        <!-- <img src="./deal_of_the_day/watch.jpeg" alt="" class="deal_item_jpg"> -->
         <p class="deal_item_name">watch</p>
-        <p class="deal_item_discount">extra 25% off</p>
-        <p class="deal_item_desc">Lorem ipsum dolo</p>
+        <p class="discount deal_item_discount">extra 25% off</p>
+        <p class="desc deal_item_desc">Lorem ipsum dolo</p>
       </li>
       <li class="deal_item">
         <div id="deal_item_sneaker" class="deal_item_img">
 
         </div>
+        <!-- <img src="./deal_of_the_day/sneaker.jpeg" alt="" class="deal_item_jpg"> -->
         <p class="deal_item_name">sneaker</p>
-        <p class="deal_item_discount">extra 20% off</p>
-        <p class="deal_item_desc">Lorem, ipsum dolor.</p>
+        <p class="discount deal_item_discount">extra 20% off</p>
+        <p class="desc deal_item_desc">Lorem, ipsum dolor.</p>
       </li>
       <li class="deal_item">
         <div id="deal_item_robot" class="deal_item_img">
 
         </div>
+        <!-- <img src="./deal_of_the_day/robot.jpeg" alt="" class="deal_item_jpg"> -->
         <p class="deal_item_name">robot</p>
-        <p class="deal_item_discount">extra 49% off</p>
-        <p class="deal_item_desc">Lorem, ipsum.</p>
+        <p class="discount deal_item_discount">extra 49% off</p>
+        <p class="desc deal_item_desc">Lorem, ipsum.</p>
       </li>
       <li class="deal_item">
         <div id="deal_item_mobile_cover" class="deal_item_img">
 
         </div>
+        <!-- <img src="./deal_of_the_day/mobile_cover.jpeg" alt="" class="deal_item_jpg"> -->
         <p class="deal_item_name">mobile cover</p>
-        <p class="deal_item_discount">extra 50% off</p>
-        <p class="deal_item_desc">Lorem ipsum dolor sit.</p>
+        <p class="discount deal_item_discount">extra 50% off</p>
+        <p class="desc deal_item_desc">Lorem ipsum dolor sit.</p>
       </li>
       <li class="deal_item">
         <div id="deal_item_iphone_7" class="deal_item_img">
 
         </div>
+        <!-- <img src="./deal_of_the_day/iphone_7.jpeg" alt="" class="deal_item_jpg"> -->
         <p class="deal_item_name">iphone</p>
-        <p class="deal_item_discount">extra 10% off</p>
-        <p class="deal_item_desc">Lorem, ipsum dolor.</p>
+        <p class="discount deal_item_discount">extra 10% off</p>
+        <p class="desc deal_item_desc">Lorem, ipsum dolor.</p>
       </li>
     </ul>
   </div>
-  <img class="ad" src="./deal_of_the_day/ad.jpeg" alt="">
+  <div class="ad">
+    
+    <!-- <img src="./deal_of_the_day/ad.jpeg" alt=""> -->
+
+  </div>
   </section>
+
+  <section id="bottom_items">
+    <div class="deal_info">
+      <div class="deal_info_left">
+        <h4 class="deal_info_name"> books and instruments</h4>
+        <p class="deal_info_time">shop now!</p>
+      </div>
+      <div class="deal_info_link">
+        <a  href="#">view all</a>
+      </div>
+    </div>
+    <ul class="bottom_items_list">
+      <li class="bottom_item">
+        <div  id="bottom_item_harmonium" class="bottom_img">
+
+        </div>
+        <p class="bottom_item_name">mobile cover</p>
+        <p class="discount bottom_item_discount">extra 50% off</p>
+        <p class="desc bottom_item_desc">Lorem ipsum dolor sit.</p>
+      </li>
+
+      <li class="bottom_item">
+        <div id="bottom_item_flute" class="bottom_img">
+
+        </div>
+        <p class="bottom_item_name">mobile cover</p>
+        <p class="discount bottom_item_discount">extra 50% off</p>
+        <p class="desc bottom_item_desc">Lorem ipsum dolor sit.</p>
+      </li>
+
+      <li class="bottom_item">
+        <div id="bottom_item_guitar" class="bottom_img">
+
+        </div>
+        <p class="bottom_item_name">mobile cover</p>
+        <p class="discount bottom_item_discount">extra 50% off</p>
+        <p class="desc bottom_item_desc">Lorem ipsum dolor sit.</p>
+      </li>
+
+      <li class="bottom_item">
+        <div id="bottom_item_combo" class="bottom_img">
+
+        </div>
+        <p class="bottom_item_name">mobile cover</p>
+        <p class="discount bottom_item_discount">extra 50% off</p>
+        <p class="desc bottom_item_desc">Lorem ipsum dolor sit.</p>
+      </li>
+
+      <li class="bottom_item">
+        <div id="bottom_item_jazz" class="bottom_img">
+
+        </div>
+        <p class="bottom_item_name">mobile cover</p>
+        <p class="discount bottom_item_discount">extra 50% off</p>
+        <p class="desc bottom_item_desc">Lorem ipsum dolor sit.</p>
+      </li>
+
+      <li class="bottom_item">
+        <div id="bottom_item_mouth_organ" class="bottom_img">
+
+        </div>
+        <p class="bottom_item_name">mobile cover</p>
+        <p class="discount bottom_item_discount">extra 50% off</p>
+        <p class="desc bottom_item_desc">Lorem ipsum dolor sit.</p>
+      </li>
+    </ul>
+  </section>
+
 
   </body>
 </html>
